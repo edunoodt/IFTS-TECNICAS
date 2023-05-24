@@ -35,7 +35,7 @@ while opcion != '***':
                         servicios['Pediatria'][1]=part
                     case 'O':
                         servicios['Otros'][0]=os
-                        servicios['Pediatria'][1]=part
+                        servicios['Otros'][1]=part
                     case other:
                         print ('No es una opcion valida')
                         input()

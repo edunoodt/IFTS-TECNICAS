@@ -6,11 +6,11 @@ pacientes = {}
 opcion =''
 while opcion!='***':
     system('clear')
+ 
     print('Ingrese la opción deseada')
     print('1.- Alta de Paciente')
     print('2.- Modificar datos de paciente')
     print('3.- Eliminar un usuario')
-
     print('***.- Para salir del sistema')
 
     opcion = input('Ingrese la opción deseada: ')
