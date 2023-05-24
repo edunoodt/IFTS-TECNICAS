@@ -1,4 +1,14 @@
 from os import system
+import platform
+
+def borra():
+    siso = platform.system()
+    match siso:
+        case 'Windows':
+            system ('cls')
+        case 'Linux':
+            system('clear')
+
 
 servicios={
     'Pediatria':[0,0],
@@ -16,7 +26,7 @@ texto="""Ingrese la operación que desea realizar
 opcion = ''
 
 while opcion != '***':
-    system('clear')
+    borra()
     opcion = input (texto)
     if opcion != '***':
         opcion = int (opcion)
@@ -43,9 +53,11 @@ while opcion != '***':
             case 2:
                 servicio = input('Ingrese el servicio que desea eliminar, Maternidad, Pediatria, Otros:\n  ').capitalize()
                 if servicio in servicios.keys():
-                    del servicios[servicio]
-                    print ('Servicio {} eliminado'.format(servicio))
-                    input()
+                    resp = input('Esta seguro que quiere eliminar el Servicio de {}? S/N'.format(servicio)).upper()
+                    if resp == 'S':
+                        del servicios[servicio]
+                        print ('Servicio {} eliminado'.format(servicio))
+                        input()
                 else:
                     print('No es un servicio valido')
                     input()
