@@ -1,6 +1,5 @@
 import soporte as so
 
-
 menu = """
 1.- Modificación Datos del paciente
 2.- Muestra datos del paciente
@@ -22,8 +21,9 @@ while dni != '***':
                 pacientes = so.altaDNI(dni,pacientes)
         else:
             print('Indique la opcion buscada:')
-            resp = input(menu)
-    print (pacientes)
+            lista = ['1',so.muestraPac,'3']
+            resp = int(input(menu))-1
+            lista[resp](dni,pacientes)
 
 
 

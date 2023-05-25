@@ -70,5 +70,11 @@ def altaDNI(dni,pac):
     pac[dni]= lista
     return pac
 
+def muestraPac(dni,pac):
+    paciente = pac[dni]
+    borra()
+    print('\n*******************************************************************************')
+    print('DNI Nro: {} - Apellido: {} - Nombre: {} - Nacimiento: {}'. format(dni,paciente[1],paciente[0],paciente[2]))
+    input('\npresione enter para continuar')
 
 
