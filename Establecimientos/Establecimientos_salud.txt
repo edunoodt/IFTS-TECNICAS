@@ -1,0 +1,12 @@
+NUMERO	ESTABLECIMIENTO	LOCALIDAD	PROVINCIA
+1	Eva Peron	Salta	Salta
+2	CAPS 002 BARRIO SAN ANTONIO	Macachin	Mendoza
+3	CAPS 016 VILLA NUEVA	General Pico	Mendoza
+4	CAPS 017 CARLOS EVANS	Sastre	Mendoza
+6	Jose Maria Mendez	Uspallata	Mendoza
+6	CAPS 101 JOS� MAR�A M�NDEZ	Godoy Cruz	Mendoza
+7	CAPS ALBERT SABIN	Chajar�	San Luis
+8	CAPS ANT�RTIDA ARGENTINA	Santa Fe	Entre R�os
+9	CAPS CAMPO RAM�N	Merlo	Misiones
+11	Ultimo	Merlo	Buenos Aires
+11	SAn Bernardo	Lujan	Buenos Aires

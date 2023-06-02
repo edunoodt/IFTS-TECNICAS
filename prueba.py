@@ -1,3 +1,6 @@
+from os import system
+system('cls')
+
 def pri():
     print ('primera')
 
@@ -9,5 +12,7 @@ def ter():
 
 
 lista = [pri, seg, ter]
-opc = int(input ('====>>>> '))-1
+opc = int(input ('Ingrese 1, 2 ó 3 ====>>>> '))-1
+
 lista[opc]()
+input('pulse enter para continuar')
